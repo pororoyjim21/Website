@@ -1,0 +1,360 @@
+/* Put your css in here */
+
+li {
+    width: 200px;
+    list-style-type: none;
+    padding: 6px 10px;
+}
+li:hover {
+    background: #FFF;
+}
+body {
+  background-color:#222;
+}
+.animate-show {
+    -webkit-transition: all linear 1s;
+    transition: all linear 1s;
+    opacity: 1;
+}
+.animate-show.transition {
+    -webkit-transition: all linear 1s;
+    transition: all linear 1s;
+    opacity: 1;
+}
+
+.fontall{
+  
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+    display: inline-block !important;
+}
+.animate-show.ng-hide {
+    opacity: 5;
+}
+.button {
+  /* Button properties */
+  border: 0;
+  background-color: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0px 5px 0px #006599;
+  color: #FFFFFF;
+  cursor: pointer;
+ 
+  font: inherit;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s ease-out;
+}
+
+
+.button-red {
+  background-color: #DB1212;
+  box-shadow: 0px 5px 0px #980F0F;
+}
+
+.button-orange {
+  background-color: #EF8B19;
+  box-shadow: 0px 5px 0px #D47D19;
+}
+
+/* Hover states */
+
+
+.button:hover {
+  box-shadow: 0px 3px 0px #006599;
+  transform: translateY(3px);
+}
+
+.button-red:hover {
+  box-shadow: 0px 3px 0px #980F0F;
+  transform: translateY(3px);
+}
+
+.button-orange:hover {
+  box-shadow: 0px 3px 0px #D47D19;
+  transform: translateY(3px);
+}
+
+
+/* Active states */
+.button:active {
+  box-shadow: 0px 2px 0px #006599;
+  transform: translateY(4px);
+}
+
+.button-red:active {
+  box-shadow: 0px 2px 0px #980F0F;
+  transform: translateY(4px);
+}
+
+.button-orange:active {
+  box-shadow: 0px 2px 0px #D47D19;
+  transform: translateY(4px);
+}
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  cursor: pointer;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+.transition{
+  background:#3366CC;
+  color:#efefef;
+ 
+ 
+  text-align: center;
+  font-size:1.2em;
+  letter-spacing: .05em;
+ 
+  transition: .4s background ease-out;
+  cursor: pointer;
+}
+
+.transition p {
+  margin:0;
+  padding:0;
+  pointer-events: none;
+}
+
+.transition:hover {
+  background:#3399FF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: #363a45;
+}
+
+.navbar-brand{
+    color: orange;
+    font-weight: bold;
+    text-shadow: 1px 0px 1px black;
+    font-size: 24px;
+}
+.navbar-brand:hover{
+  color: orange;
+}
+.navbar-custom{
+  background: white;
+  margin: 20px;
+  border-radius: 30px;
+}
+.nav-item{
+  padding: 0px 8px;
+}
+
+.nav-item a{
+  color: #3366CC;
+}
+.nav-item.active{
+  background: yellow;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.cart {
+
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  height: auto;
+  overflow: hidden;
+}
+.cart .material-icons {
+  position: relative;
+  top: 4px;
+  z-index: 1;
+  font-size: 24px;
+  color: white;
+}
+.cart .count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #d60b28;
+  width: 20px;
+  height: 20px;
+  line-height: 17px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.box{
+    background-color: #3366CC;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 0px 3px 5px #888888;
+    
+    
+    
+   
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: initial;
+}
+
+
+
+div.ntf-container {
+  position: fixed;
+  top: 10px;
+  left: -290px;
+  width: 290px;
+  height: 90px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px 1px #777;
+  padding: 20px;
+  color: #3399FF;
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Sans serif";
+  overflow: hidden;
+}
+
+div#btn-container {
+  
+}
+div#btn-container button {
+ 
+}
+@import url("https://fonts.googleapis.com/css?family=Hind:400,700");
+html, body {
+  font-family: "Hind", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 70%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #3366CC;
+  background-image: linear-gradient(#FFFFFF 50%, #FFFFFF 50%, #F0F3FC 50%);
+  box-shadow: 0px 12px 39px -19px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.carousel-wrapper .carousel {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  background-color: #3399FF;
+}
+.carousel-wrapper .carousel .carousel-cell {
+  padding: 10px;
+  background-color: #FFFFFF;
+  width: 20%;
+  height: auto;
+  min-width: 120px;
+  margin: 0 20px;
+  transition: transform 500ms ease;
+}
+.carousel-wrapper .carousel .carousel-cell .more {
+  display: block;
+  opacity: 0;
+  margin: 5px 0 15px 0;
+  text-align: center;
+  font-size: 10px;
+  color: #CFCFCF;
+  text-decoration: none;
+  transition: opacity 300ms ease;
+}
+.carousel-wrapper .carousel .carousel-cell .more:hover, .carousel-wrapper .carousel .carousel-cell .more:active, .carousel-wrapper .carousel .carousel-cell .more:visited, .carousel-wrapper .carousel .carousel-cell .more:focus {
+  color: #CFCFCF;
+  text-decoration: none;
+}
+.carousel-wrapper .carousel .carousel-cell .line {
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background-color: black;
+  left: 50%;
+  margin: 5px 0 0 -1px;
+  transition: height 300ms ease;
+  display: block;
+}
+.carousel-wrapper .carousel .carousel-cell .price {
+  position: absolute;
+  font-weight: 700;
+  margin: 45px auto 0 auto;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
+  transition: opacity 300ms ease 300ms;
+}
+.carousel-wrapper .carousel .carousel-cell .price sup {
+  top: 2px;
+  position: absolute;
+}
+.carousel-wrapper .carousel .carousel-cell.is-selected {
+  transform: scale(1.2);
+}
+.carousel-wrapper .carousel .carousel-cell.is-selected .line {
+  height: 35px;
+}
+.carousel-wrapper .carousel .carousel-cell.is-selected .price, .carousel-wrapper .carousel .carousel-cell.is-selected .more {
+  opacity: 1;
+}
+.carousel-wrapper .flickity-page-dots {
+  display: none;
+}
+.carousel-wrapper .flickity-viewport, .carousel-wrapper .flickity-slider {
+  overflow: visible;
+}
+
+
+
